@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './Sidebar.scss'
 
-class Sidebar extends Component {
+class Sidebar extends PureComponent {
   render() {
     return (
       <div id='sidebar'>

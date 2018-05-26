@@ -1,0 +1,18 @@
+@import '../styles/include-media.scss';
+
+#menubar {
+  background-color: #000000;
+  display: none;
+  color: #AAAAAA;
+  height: 100%;
+  padding: 12px 24px!important;
+  position: fixed!important;
+  right: 0;
+  overflow: auto;
+  width: 60%;
+  z-index: 2;
+
+  @include media('<medium') {
+    width: 100%;
+  }
+}
