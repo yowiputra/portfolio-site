@@ -1,0 +1,14 @@
+@import '../styles/include-media.scss';
+
+#sidebar {
+  background-color: #FFFFFF;
+  height: 100%;
+  position: fixed!important;
+  overflow: auto;
+  width: 40%;
+  z-index: 1;
+
+  @include media('<medium') {
+    display: none;
+  }
+}
