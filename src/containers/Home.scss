@@ -3,6 +3,10 @@
 #home {
   margin-left: 40%;
 
+  .home-container {
+    padding: 12px 24px;
+  }
+
   @include media('<medium') {
     margin-left: 0;
   }

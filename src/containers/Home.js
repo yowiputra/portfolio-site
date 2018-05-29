@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import MenuToggle from '../components/MenuToggle'
 import MenuBar from '../components/Menubar'
+import Header from './Header'
+import MyPortfolio from './MyPortfolio'
+import About from './About'
+import Skills from './Skills'
+import Contact from './Contact'
+import Footer from './Footer'
 import './Home.scss'
 
 class Home extends Component {
@@ -25,6 +31,14 @@ class Home extends Component {
           <MenuBar handleClick={this.handleClick} /> :
           null
         }
+        <div class='home-container'>
+          <Header />
+          <MyPortfolio />
+          <About />
+          <Skills />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     )
   }
