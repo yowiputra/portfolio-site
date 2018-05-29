@@ -2,10 +2,8 @@
 
 #menubar {
   background-color: #000000;
-  display: none;
   color: #AAAAAA;
   height: 100%;
-  padding: 12px 24px!important;
   position: fixed!important;
   right: 0;
   overflow: auto;
@@ -15,4 +13,13 @@
   @include media('<medium') {
     width: 100%;
   }
+}
+
+.fade-appear {
+  opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
 }

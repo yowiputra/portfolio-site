@@ -1,16 +1,30 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import MenuToggle from '../components/MenuToggle'
+import MenuBar from '../components/Menubar'
 import './Home.scss'
 
-class Home extends PureComponent {
+class Home extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      showMenuBar: false
+    }
+    this.handleClick = this.handleClick.bind(this)
+  }
+
   handleClick = () => {
-    document.getElementById('menubar').style.display = 'block'
+    this.setState({ showMenuBar: !this.state.showMenuBar })
   }
 
   render() {
     return (
       <div id='home'>
-        <MenuToggle iconClass='fa fa-bars' onClick={this.handleClick}/>
+        <MenuToggle iconClass='fa fa-bars' onClick={this.handleClick} />
+        {
+          this.state.showMenuBar ?
+          <MenuBar handleClick={this.handleClick} /> :
+          null
+        }
       </div>
     )
   }
