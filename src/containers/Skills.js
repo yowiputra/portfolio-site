@@ -3,12 +3,11 @@ import './Skills.scss'
 
 class Skills extends PureComponent {
   createSkill(title, level){
-    const style = {width: level}
     return(
       <div class='skill'>
         <p class='skill-title'>{title}</p>
         <div class='skill-bar-bg'>
-          <div class='skill-bar' style={style}>{level}</div>
+          <div class='skill-bar' style={{width: level}}></div>
         </div>
       </div>
     )
