@@ -1,3 +1,21 @@
 #skills {
   padding: 32px 0;
+
+  .skill {
+    margin: 0 10px 15px 10px;
+
+    .skill-bar-bg {
+      background-color: #f1f1f1;
+      height: 36px;
+      width: 100%;
+
+      .skill-bar {
+        background-color: #00c5b5;
+        color: #ffffff;
+        height: inherit;
+        text-align: center;
+        line-height: 36px;
+      }
+    }
+  }
 }
