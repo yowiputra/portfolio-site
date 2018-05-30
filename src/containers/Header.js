@@ -3,7 +3,7 @@ import './Header.scss'
 
 class Header extends PureComponent {
   handleLink = () => {
-    window.open('https://www.visualcv.com/yohan-wiputra/pdf', 'blank')
+    window.open('https://www.visualcv.com/yohan-wiputra', 'blank')
   }
 
   render() {
