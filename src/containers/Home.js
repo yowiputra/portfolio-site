@@ -33,8 +33,8 @@ class Home extends Component {
         }
         <div class='home-container'>
           <Header />
-          <MyPortfolio />
           <About />
+          <MyPortfolio />
           <Skills />
           <Contact />
           <Footer />

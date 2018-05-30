@@ -22,8 +22,8 @@ class Menubar extends PureComponent {
           <MenuToggle iconClass='fa fa-remove' onClick={this.props.handleClick}/>
           <div class='menu-container'>
             {this.createLinks('#home', 'Home')}
-            {this.createLinks('#portfolio', 'Portfolio')}
             {this.createLinks('#about', 'About')}
+            {this.createLinks('#portfolio', 'Experience')}
             {this.createLinks('#skills', 'Skills')}
             {this.createLinks('#contact', 'Contact')}
           </div>
