@@ -25,7 +25,7 @@ class Menubar extends PureComponent {
             {this.createLinks('#about', 'About')}
             {this.createLinks('#portfolio', 'Experience')}
             {this.createLinks('#projects', 'Projects')}
-            {this.createLinks('#skills', 'Skills')}
+            {this.createLinks('#skills', 'Top Skills')}
             {this.createLinks('#contact', 'Contact')}
           </div>
         </div>

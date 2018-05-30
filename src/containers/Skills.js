@@ -17,14 +17,14 @@ class Skills extends PureComponent {
   render() {
     return(
       <div id='skills'>
-        <h2>Skills</h2>
+        <h2>Top Skills</h2>
         <hr />
         {this.createSkill('React / Redux', '85%')}
         {this.createSkill('JavaScript', '85%')}
         {this.createSkill('HTML5 & CSS3', '75%')}
         {this.createSkill('TypeScript', '70%')}
-        {this.createSkill('AWS', '60%')}
-        {this.createSkill('Python', '50%')}
+        {this.createSkill('MySQL', '60%')}
+        {this.createSkill('AWS', '50%')}
         {this.createSkill('React Native', '40%')}
         {this.createSkill('MVC Frameworks (Laravel, Ruby on Rails, Django)', '40%')}
       </div>

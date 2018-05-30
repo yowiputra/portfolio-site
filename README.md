@@ -1,3 +1,3 @@
 # My Portfolio Site!
 
-Work in progress! Coming soon...
+Source code for my portfolio site. Check out the site at <INSERT URL>
