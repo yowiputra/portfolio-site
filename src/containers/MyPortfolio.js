@@ -1,11 +1,11 @@
 import React, { PureComponent } from 'react'
 import JobCard from '../components/JobCard'
-import './MyPortfolio.scss'
+import './Experience.scss'
 
 class MyPortfolio extends PureComponent {
   render(){
     return(
-      <div id='portfolio'>
+      <div id='portfolio' class='experience'>
         <h2>Experience</h2>
         <hr />
         <div class='column left'>

@@ -3,6 +3,7 @@ import MenuToggle from '../components/MenuToggle'
 import MenuBar from '../components/Menubar'
 import Header from './Header'
 import MyPortfolio from './MyPortfolio'
+import Projects from './Projects'
 import About from './About'
 import Skills from './Skills'
 import Contact from './Contact'
@@ -35,6 +36,7 @@ class Home extends Component {
           <Header />
           <About />
           <MyPortfolio />
+          <Projects />
           <Skills />
           <Contact />
           <Footer />
