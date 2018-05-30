@@ -9,5 +9,15 @@
 
   p {
     padding: 0 10px;
+
+    a {
+      color: black;
+      text-decoration: none;
+      opacity: 0.75;
+    }
+
+    a:hover {
+      opacity: 1;
+    }
   }
 }

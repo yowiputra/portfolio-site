@@ -1,3 +1,12 @@
 .App {
   text-align: justify;
 }
+
+.home-fade-appear {
+  opacity: 0.01;
+}
+
+.home-fade-appear.home-fade-appear-active {
+  opacity: 1;
+  transition: all 500ms ease-in;
+}

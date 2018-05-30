@@ -20,5 +20,6 @@
 }
 
 .job-card:hover {
-  border: 1px solid #cccccc;
+  border: 1px solid #00c5b5;
+  transition: border 0.1s ease-in;
 }
