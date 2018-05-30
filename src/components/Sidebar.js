@@ -4,9 +4,7 @@ import './Sidebar.scss'
 class Sidebar extends PureComponent {
   render() {
     return (
-      <div id='sidebar'>
-        TEST SIDEBAR
-      </div>
+      <div id='sidebar'></div>
     )
   }
 }
