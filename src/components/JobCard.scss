@@ -1,6 +1,9 @@
 .job-card {
-  margin: 5px 20px 5px 0;
-  padding: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 9px;
   text-align: justify;
 
   div {
@@ -14,4 +17,8 @@
   .job-text {
     margin-top: 10px;
   }
+}
+
+.job-card:hover {
+  border: 1px solid #cccccc;
 }
